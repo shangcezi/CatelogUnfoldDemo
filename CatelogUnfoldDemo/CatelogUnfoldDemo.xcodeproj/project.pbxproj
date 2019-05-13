@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043F58F721E4356E00EB0517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58F621E4356E00EB0517 /* AppDelegate.m */; };
+		043F58FA21E4356E00EB0517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F58F921E4356E00EB0517 /* ViewController.m */; };
+		043F58FD21E4356E00EB0517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F58FB21E4356E00EB0517 /* Main.storyboard */; };
+		043F58FF21E4357600EB0517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F58FE21E4357600EB0517 /* Assets.xcassets */; };
+		043F590221E4357600EB0517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F590021E4357600EB0517 /* LaunchScreen.storyboard */; };
+		043F590521E4357600EB0517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F590421E4357600EB0517 /* main.m */; };
+		043F590F21E4357700EB0517 /* CatelogUnfoldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F590E21E4357700EB0517 /* CatelogUnfoldDemoTests.m */; };
+		043F591A21E4357700EB0517 /* CatelogUnfoldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F591921E4357700EB0517 /* CatelogUnfoldDemoUITests.m */; };
+		043F592921E4681A00EB0517 /* ExpandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F592821E4681A00EB0517 /* ExpandCell.m */; };
+		043F594621E47DD100EB0517 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 043F592B21E47DD100EB0517 /* LICENSE */; };
+		043F594721E47DD100EB0517 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F592D21E47DD100EB0517 /* MASCompositeConstraint.m */; };
+		043F594821E47DD100EB0517 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593021E47DD100EB0517 /* MASConstraint.m */; };
+		043F594921E47DD100EB0517 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593221E47DD100EB0517 /* MASConstraintMaker.m */; };
+		043F594A21E47DD100EB0517 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593421E47DD100EB0517 /* MASLayoutConstraint.m */; };
+		043F594B21E47DD100EB0517 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593821E47DD100EB0517 /* MASViewAttribute.m */; };
+		043F594C21E47DD100EB0517 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593A21E47DD100EB0517 /* MASViewConstraint.m */; };
+		043F594D21E47DD100EB0517 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593C21E47DD100EB0517 /* NSArray+MASAdditions.m */; };
+		043F594E21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F593F21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		043F594F21E47DD100EB0517 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 043F594021E47DD100EB0517 /* README.md */; };
+		043F595021E47DD100EB0517 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F594221E47DD100EB0517 /* View+MASAdditions.m */; };
+		043F595121E47DD100EB0517 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F594521E47DD100EB0517 /* ViewController+MASAdditions.m */; };
+		043F595421E82B0100EB0517 /* DefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F595321E82B0100EB0517 /* DefaultCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043F590B21E4357700EB0517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F58EA21E4356E00EB0517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F58F121E4356E00EB0517;
+			remoteInfo = CatelogUnfoldDemo;
+		};
+		043F591621E4357700EB0517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F58EA21E4356E00EB0517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F58F121E4356E00EB0517;
+			remoteInfo = CatelogUnfoldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043F58F221E4356E00EB0517 /* CatelogUnfoldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatelogUnfoldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F58F521E4356E00EB0517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043F58F621E4356E00EB0517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043F58F821E4356E00EB0517 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043F58F921E4356E00EB0517 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043F58FC21E4356E00EB0517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043F58FE21E4357600EB0517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043F590121E4357600EB0517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043F590321E4357600EB0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F590421E4357600EB0517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043F590A21E4357700EB0517 /* CatelogUnfoldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatelogUnfoldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F590E21E4357700EB0517 /* CatelogUnfoldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatelogUnfoldDemoTests.m; sourceTree = "<group>"; };
+		043F591021E4357700EB0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F591521E4357700EB0517 /* CatelogUnfoldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatelogUnfoldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F591921E4357700EB0517 /* CatelogUnfoldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatelogUnfoldDemoUITests.m; sourceTree = "<group>"; };
+		043F591B21E4357700EB0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F592721E4681A00EB0517 /* ExpandCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandCell.h; sourceTree = "<group>"; };
+		043F592821E4681A00EB0517 /* ExpandCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandCell.m; sourceTree = "<group>"; };
+		043F592B21E47DD100EB0517 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		043F592C21E47DD100EB0517 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		043F592D21E47DD100EB0517 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		043F592E21E47DD100EB0517 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		043F592F21E47DD100EB0517 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		043F593021E47DD100EB0517 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		043F593121E47DD100EB0517 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		043F593221E47DD100EB0517 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		043F593321E47DD100EB0517 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		043F593421E47DD100EB0517 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		043F593521E47DD100EB0517 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		043F593621E47DD100EB0517 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		043F593721E47DD100EB0517 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		043F593821E47DD100EB0517 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		043F593921E47DD100EB0517 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		043F593A21E47DD100EB0517 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		043F593B21E47DD100EB0517 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		043F593C21E47DD100EB0517 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		043F593D21E47DD100EB0517 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		043F593E21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		043F593F21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		043F594021E47DD100EB0517 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		043F594121E47DD100EB0517 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		043F594221E47DD100EB0517 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		043F594321E47DD100EB0517 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		043F594421E47DD100EB0517 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		043F594521E47DD100EB0517 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		043F595221E82B0100EB0517 /* DefaultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultCell.h; sourceTree = "<group>"; };
+		043F595321E82B0100EB0517 /* DefaultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043F58EF21E4356E00EB0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F590721E4357700EB0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F591221E4357700EB0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043F58E921E4356E00EB0517 = {
+			isa = PBXGroup;
+			children = (
+				043F58F421E4356E00EB0517 /* CatelogUnfoldDemo */,
+				043F590D21E4357700EB0517 /* CatelogUnfoldDemoTests */,
+				043F591821E4357700EB0517 /* CatelogUnfoldDemoUITests */,
+				043F58F321E4356E00EB0517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043F58F321E4356E00EB0517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043F58F221E4356E00EB0517 /* CatelogUnfoldDemo.app */,
+				043F590A21E4357700EB0517 /* CatelogUnfoldDemoTests.xctest */,
+				043F591521E4357700EB0517 /* CatelogUnfoldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043F58F421E4356E00EB0517 /* CatelogUnfoldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				043F58F521E4356E00EB0517 /* AppDelegate.h */,
+				043F58F621E4356E00EB0517 /* AppDelegate.m */,
+				043F58F821E4356E00EB0517 /* ViewController.h */,
+				043F58F921E4356E00EB0517 /* ViewController.m */,
+				043F592721E4681A00EB0517 /* ExpandCell.h */,
+				043F592821E4681A00EB0517 /* ExpandCell.m */,
+				043F595221E82B0100EB0517 /* DefaultCell.h */,
+				043F595321E82B0100EB0517 /* DefaultCell.m */,
+				043F58FB21E4356E00EB0517 /* Main.storyboard */,
+				043F58FE21E4357600EB0517 /* Assets.xcassets */,
+				043F590021E4357600EB0517 /* LaunchScreen.storyboard */,
+				043F590321E4357600EB0517 /* Info.plist */,
+				043F590421E4357600EB0517 /* main.m */,
+				043F592A21E47DD100EB0517 /* Masonry */,
+			);
+			path = CatelogUnfoldDemo;
+			sourceTree = "<group>";
+		};
+		043F590D21E4357700EB0517 /* CatelogUnfoldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				043F590E21E4357700EB0517 /* CatelogUnfoldDemoTests.m */,
+				043F591021E4357700EB0517 /* Info.plist */,
+			);
+			path = CatelogUnfoldDemoTests;
+			sourceTree = "<group>";
+		};
+		043F591821E4357700EB0517 /* CatelogUnfoldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043F591921E4357700EB0517 /* CatelogUnfoldDemoUITests.m */,
+				043F591B21E4357700EB0517 /* Info.plist */,
+			);
+			path = CatelogUnfoldDemoUITests;
+			sourceTree = "<group>";
+		};
+		043F592A21E47DD100EB0517 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				043F592B21E47DD100EB0517 /* LICENSE */,
+				043F592C21E47DD100EB0517 /* MASCompositeConstraint.h */,
+				043F592D21E47DD100EB0517 /* MASCompositeConstraint.m */,
+				043F592E21E47DD100EB0517 /* MASConstraint+Private.h */,
+				043F592F21E47DD100EB0517 /* MASConstraint.h */,
+				043F593021E47DD100EB0517 /* MASConstraint.m */,
+				043F593121E47DD100EB0517 /* MASConstraintMaker.h */,
+				043F593221E47DD100EB0517 /* MASConstraintMaker.m */,
+				043F593321E47DD100EB0517 /* MASLayoutConstraint.h */,
+				043F593421E47DD100EB0517 /* MASLayoutConstraint.m */,
+				043F593521E47DD100EB0517 /* Masonry.h */,
+				043F593621E47DD100EB0517 /* MASUtilities.h */,
+				043F593721E47DD100EB0517 /* MASViewAttribute.h */,
+				043F593821E47DD100EB0517 /* MASViewAttribute.m */,
+				043F593921E47DD100EB0517 /* MASViewConstraint.h */,
+				043F593A21E47DD100EB0517 /* MASViewConstraint.m */,
+				043F593B21E47DD100EB0517 /* NSArray+MASAdditions.h */,
+				043F593C21E47DD100EB0517 /* NSArray+MASAdditions.m */,
+				043F593D21E47DD100EB0517 /* NSArray+MASShorthandAdditions.h */,
+				043F593E21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				043F593F21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				043F594021E47DD100EB0517 /* README.md */,
+				043F594121E47DD100EB0517 /* View+MASAdditions.h */,
+				043F594221E47DD100EB0517 /* View+MASAdditions.m */,
+				043F594321E47DD100EB0517 /* View+MASShorthandAdditions.h */,
+				043F594421E47DD100EB0517 /* ViewController+MASAdditions.h */,
+				043F594521E47DD100EB0517 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043F58F121E4356E00EB0517 /* CatelogUnfoldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F591E21E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemo" */;
+			buildPhases = (
+				043F58EE21E4356E00EB0517 /* Sources */,
+				043F58EF21E4356E00EB0517 /* Frameworks */,
+				043F58F021E4356E00EB0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatelogUnfoldDemo;
+			productName = CatelogUnfoldDemo;
+			productReference = 043F58F221E4356E00EB0517 /* CatelogUnfoldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043F590921E4357700EB0517 /* CatelogUnfoldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F592121E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemoTests" */;
+			buildPhases = (
+				043F590621E4357700EB0517 /* Sources */,
+				043F590721E4357700EB0517 /* Frameworks */,
+				043F590821E4357700EB0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043F590C21E4357700EB0517 /* PBXTargetDependency */,
+			);
+			name = CatelogUnfoldDemoTests;
+			productName = CatelogUnfoldDemoTests;
+			productReference = 043F590A21E4357700EB0517 /* CatelogUnfoldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043F591421E4357700EB0517 /* CatelogUnfoldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F592421E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemoUITests" */;
+			buildPhases = (
+				043F591121E4357700EB0517 /* Sources */,
+				043F591221E4357700EB0517 /* Frameworks */,
+				043F591321E4357700EB0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043F591721E4357700EB0517 /* PBXTargetDependency */,
+			);
+			name = CatelogUnfoldDemoUITests;
+			productName = CatelogUnfoldDemoUITests;
+			productReference = 043F591521E4357700EB0517 /* CatelogUnfoldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043F58EA21E4356E00EB0517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = iMac;
+				TargetAttributes = {
+					043F58F121E4356E00EB0517 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					043F590921E4357700EB0517 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 043F58F121E4356E00EB0517;
+					};
+					043F591421E4357700EB0517 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 043F58F121E4356E00EB0517;
+					};
+				};
+			};
+			buildConfigurationList = 043F58ED21E4356E00EB0517 /* Build configuration list for PBXProject "CatelogUnfoldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043F58E921E4356E00EB0517;
+			productRefGroup = 043F58F321E4356E00EB0517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043F58F121E4356E00EB0517 /* CatelogUnfoldDemo */,
+				043F590921E4357700EB0517 /* CatelogUnfoldDemoTests */,
+				043F591421E4357700EB0517 /* CatelogUnfoldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F58F021E4356E00EB0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F590221E4357600EB0517 /* LaunchScreen.storyboard in Resources */,
+				043F58FF21E4357600EB0517 /* Assets.xcassets in Resources */,
+				043F594F21E47DD100EB0517 /* README.md in Resources */,
+				043F594621E47DD100EB0517 /* LICENSE in Resources */,
+				043F58FD21E4356E00EB0517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F590821E4357700EB0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F591321E4357700EB0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043F58EE21E4356E00EB0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F594921E47DD100EB0517 /* MASConstraintMaker.m in Sources */,
+				043F58FA21E4356E00EB0517 /* ViewController.m in Sources */,
+				043F590521E4357600EB0517 /* main.m in Sources */,
+				043F594821E47DD100EB0517 /* MASConstraint.m in Sources */,
+				043F595121E47DD100EB0517 /* ViewController+MASAdditions.m in Sources */,
+				043F594A21E47DD100EB0517 /* MASLayoutConstraint.m in Sources */,
+				043F594D21E47DD100EB0517 /* NSArray+MASAdditions.m in Sources */,
+				043F594C21E47DD100EB0517 /* MASViewConstraint.m in Sources */,
+				043F594B21E47DD100EB0517 /* MASViewAttribute.m in Sources */,
+				043F595021E47DD100EB0517 /* View+MASAdditions.m in Sources */,
+				043F58F721E4356E00EB0517 /* AppDelegate.m in Sources */,
+				043F592921E4681A00EB0517 /* ExpandCell.m in Sources */,
+				043F594721E47DD100EB0517 /* MASCompositeConstraint.m in Sources */,
+				043F595421E82B0100EB0517 /* DefaultCell.m in Sources */,
+				043F594E21E47DD100EB0517 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F590621E4357700EB0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F590F21E4357700EB0517 /* CatelogUnfoldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F591121E4357700EB0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F591A21E4357700EB0517 /* CatelogUnfoldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043F590C21E4357700EB0517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F58F121E4356E00EB0517 /* CatelogUnfoldDemo */;
+			targetProxy = 043F590B21E4357700EB0517 /* PBXContainerItemProxy */;
+		};
+		043F591721E4357700EB0517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F58F121E4356E00EB0517 /* CatelogUnfoldDemo */;
+			targetProxy = 043F591621E4357700EB0517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043F58FB21E4356E00EB0517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F58FC21E4356E00EB0517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043F590021E4357600EB0517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F590121E4357600EB0517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043F591C21E4357700EB0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043F591D21E4357700EB0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043F591F21E4357700EB0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W562XKJ7VE;
+				INFOPLIST_FILE = CatelogUnfoldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043F592021E4357700EB0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W562XKJ7VE;
+				INFOPLIST_FILE = CatelogUnfoldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043F592221E4357700EB0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatelogUnfoldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatelogUnfoldDemo.app/CatelogUnfoldDemo";
+			};
+			name = Debug;
+		};
+		043F592321E4357700EB0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatelogUnfoldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatelogUnfoldDemo.app/CatelogUnfoldDemo";
+			};
+			name = Release;
+		};
+		043F592521E4357700EB0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatelogUnfoldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatelogUnfoldDemo;
+			};
+			name = Debug;
+		};
+		043F592621E4357700EB0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatelogUnfoldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HTZB.CatelogUnfoldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatelogUnfoldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043F58ED21E4356E00EB0517 /* Build configuration list for PBXProject "CatelogUnfoldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F591C21E4357700EB0517 /* Debug */,
+				043F591D21E4357700EB0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F591E21E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F591F21E4357700EB0517 /* Debug */,
+				043F592021E4357700EB0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F592121E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F592221E4357700EB0517 /* Debug */,
+				043F592321E4357700EB0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F592421E4357700EB0517 /* Build configuration list for PBXNativeTarget "CatelogUnfoldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F592521E4357700EB0517 /* Debug */,
+				043F592621E4357700EB0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043F58EA21E4356E00EB0517 /* Project object */;
+}
