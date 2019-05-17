@@ -25,7 +25,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
   
-    self.sString = @"99999";
+    self.sString = @"77777";
     
     [self addObserver:self forKeyPath:@"sString" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
    
