@@ -25,7 +25,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
   
-    self.sString = @"99999";
+    self.sString = @"888888888";
     
     [self addObserver:self forKeyPath:@"sString" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
    
@@ -63,7 +63,7 @@
         [results1 addObject:[NSString stringWithUTF8String:propertyName]];
         [resulets2 addObject:[NSString stringWithUTF8String:propertyAttributes]];
     }
-
+ 
     NSLog(@"result1 --->%@  result2 ---->%@",results1,resulets2);
     
     
