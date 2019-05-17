@@ -21,10 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [[UIColor lightGrayColor];
+    
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
     self.sString = @"77777";
+    
     [self addObserver:self forKeyPath:@"sString" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
-   
+    
     
     
     self.sString = @"2222";
@@ -33,9 +36,9 @@
     _dataArray = [NSMutableArray array];
     
     NSArray *array =@[@[@[@1,@2,@3,@4],@[@5,@6,@7,@8],@[@9,@10,@11,@12]],@[@[@11,@22,@33,@44],@[@55,@66,@77,@88],@[@99,@110,@111,@112]],@[@[@"aa",@"bb",@"cc",@"dd"],@[@"ff",@"gg",@"hh",@"jj"],@[@"yy",@"uu",@"ii",@"wetwetweddd"]]];
-
+    
     [_dataArray addObjectsFromArray:array];
-
+    
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, self.view.bounds.size.height -50) style:UITableViewStyleGrouped];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -52,14 +55,14 @@
         const char *propertyName = property_getName(property);
         const char *propertyAttributes = property_getAttributes(property);
         
-//        NSString* type = [NSString stringWithUTF8String:propertyAttributes];
-//        type = [type componentsSeparatedByString:@"\""][1];
-//
-//        [results addObject:@{@"name":[NSString stringWithFormat:@"%s",propertyName], @"type":type}];
+        //        NSString* type = [NSString stringWithUTF8String:propertyAttributes];
+        //        type = [type componentsSeparatedByString:@"\""][1];
+        //
+        //        [results addObject:@{@"name":[NSString stringWithFormat:@"%s",propertyName], @"type":type}];
         [results1 addObject:[NSString stringWithUTF8String:propertyName]];
         [resulets2 addObject:[NSString stringWithUTF8String:propertyAttributes]];
     }
- 
+    
     NSLog(@"result1 --->%@  result2 ---->%@",results1,resulets2);
     
     
@@ -80,7 +83,7 @@
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-   NSArray *tempArray = _dataArray[section];
+    NSArray *tempArray = _dataArray[section];
     return tempArray.count;
 }
 
@@ -91,15 +94,15 @@
 
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-   // UITableViewCell *cell = [UITableViewCell new];
-     NSArray *tempArray = _dataArray[indexPath.section];
+    // UITableViewCell *cell = [UITableViewCell new];
+    NSArray *tempArray = _dataArray[indexPath.section];
     
-//    NSString *sring = [tempArray componentsJoinedByString:@","];
-//    NSLog(@"index ---.%@",indexPath);
-//
-//    NSLog(@"tempArray--->%@",tempArray[indexPath.row]);
-//
-//    cell.textLabel.text = [NSString stringWithFormat:@"---->%@",sring];
+    //    NSString *sring = [tempArray componentsJoinedByString:@","];
+    //    NSLog(@"index ---.%@",indexPath);
+    //
+    //    NSLog(@"tempArray--->%@",tempArray[indexPath.row]);
+    //
+    //    cell.textLabel.text = [NSString stringWithFormat:@"---->%@",sring];
     
     
     
@@ -117,7 +120,7 @@
     
     NSMutableArray *tempArray = _dataArray[indexPath.section];
     
-   //  NSArray *tempArray = _dataArray[indexPath.section];
+    //  NSArray *tempArray = _dataArray[indexPath.section];
     
     NSArray *array = tempArray[indexPath.row];
     
